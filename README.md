@@ -24,4 +24,11 @@ This repository shows how to add a **"Open in Cursor"** option to the right-clic
    ```powershell
    .\add_cursor_context.ps1
  ---  
+Method 2: Manual Reg File
+
+Open add_cursor_context.reg in Notepad.
+Replace YourUserName with your actual Windows username.
+Double-click the file to merge it into the Registry.
+Restart File Explorer (or log out/in) to apply.
+
 
