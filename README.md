@@ -33,3 +33,32 @@ This repository shows how to add a **"Open in Cursor"** option to the right-clic
    
  ---  
 
+ ## 📂 Files Included
+ 
+| File                        | Purpose                                        |
+| --------------------------- | ---------------------------------------------- |
+| `add_cursor_context.ps1`    | Automatically adds context menu via PowerShell |
+| `add_cursor_context.reg`    | Adds context menu manually via Registry Editor |
+| `remove_cursor_context.reg` | Removes the right-click entry from the system  |
+
+---
+
+## 🔧 Requirements
+
+- Cursor Editor installed
+- cursor command available in system PATH
+
+You can enable the cursor CLI by running:
+Ctrl + Shift + P → Shell Command: Install 'cursor' command in PATH
+
+---
+
+## 🧹 Optional
+
+To remove the context menu later, use the remove_cursor_context.reg file provided
+
+---
+
+## 🙌 Credits
+
+Inspired by developers who love productivity — and dislike manually navigating folders.
