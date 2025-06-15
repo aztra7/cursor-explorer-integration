@@ -26,9 +26,10 @@ This repository shows how to add a **"Open in Cursor"** option to the right-clic
 
 ### Method 2: Manual Reg File
 
-1.Open add_cursor_context.reg in Notepad.
-2.Replace YourUserName with your actual Windows username.
-3.Double-click the file to merge it into the Registry.
-4.Restart File Explorer (or log out/in) to apply.
+1. Open add_cursor_context.reg in Notepad.
+2. Replace YourUserName with your actual Windows username.
+3. Double-click the file to merge it into the Registry.
+4. Restart File Explorer (or log out/in) to apply.
+   
  ---  
 
