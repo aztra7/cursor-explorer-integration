@@ -1,0 +1,15 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Open in Cursor]
+@="Open in Cursor"
+"Icon"="C:\\Users\\YourUserName\\AppData\\Local\\Programs\\Cursor\\Cursor.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Open in Cursor\command]
+@="cmd.exe /c cursor ."
+
+[HKEY_CLASSES_ROOT\Directory\shell\Open in Cursor]
+@="Open in Cursor"
+"Icon"="C:\\Users\\YourUserName\\AppData\\Local\\Programs\\Cursor\\Cursor.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Open in Cursor\command]
+@="cmd.exe /c cursor \"%1\""
